@@ -48,11 +48,11 @@ public class MainActivity extends AppCompatActivity implements FlingCardListener
         flingContainer = (SwipeFlingAdapterView) findViewById(R.id.frame);
 
         al = new ArrayList<>();
-        al.add(new Data("http://i.ytimg.com/vi/PnxsTxV8y3g/maxresdefault.jpg", "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness."));
-        al.add(new Data("http://switchboard.nrdc.org/blogs/dlashof/mission_impossible_4-1.jpg", "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness."));
-        al.add(new Data("http://i.ytimg.com/vi/PnxsTxV8y3g/maxresdefault.jpg", "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness."));
-        al.add(new Data("http://switchboard.nrdc.org/blogs/dlashof/mission_impossible_4-1.jpg", "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness."));
-        al.add(new Data("http://i.ytimg.com/vi/PnxsTxV8y3g/maxresdefault.jpg", "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness."));
+        al.add(new Data("http://s3-ak.buzzfeed.com/static/2015-02/20/17/enhanced/webdr02/enhanced-29230-1424471578-3.jpg", "Taco al pastor"));
+        al.add(new Data("http://s3-ak.buzzfeed.com/static/2015-02/20/17/enhanced/webdr02/enhanced-2408-1424472861-36.jpg", "Taco de birria"));
+        al.add(new Data("http://s3-ak.buzzfeed.com/static/2015-02/20/19/enhanced/webdr09/enhanced-29177-1424479123-18.jpg", "Taco de asada"));
+        al.add(new Data("http://s3-ak.buzzfeed.com/static/2015-02/20/19/enhanced/webdr12/enhanced-28720-1424480371-12.jpg", "Taco de asada"));
+        al.add(new Data("http://s3-ak.buzzfeed.com/static/2015-02/20/20/enhanced/webdr07/enhanced-3627-1424483593-1.jpg", "Taco de tripa"));
 
         myAppAdapter = new MyAppAdapter(al, MainActivity.this);
         flingContainer.setAdapter(myAppAdapter);
